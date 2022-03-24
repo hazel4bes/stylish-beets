@@ -4,6 +4,10 @@ html {
   line-height: 1.5;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
   color: #222;
   font-family: "PT Serif", serif;
@@ -42,7 +46,7 @@ figcaption {
   font-style: italic;
 }
 
-figure + p {
+.harvest {
   font-size: 1.5rem;
   font-weight: bold;
 }
