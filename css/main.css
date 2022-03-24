@@ -47,7 +47,6 @@ figcaption {
 }
 
 .harvest {
-  font-size: 1.5rem;
   font-weight: bold;
 }
 
@@ -76,4 +75,8 @@ dl dt {
 ul {
   list-style-type: circle;
   font-size: .8rem;
+}
+
+footer {
+    font-size: .8rem;
 }
